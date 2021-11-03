@@ -28,8 +28,7 @@ function draw() {
   rectMode(CENTER);
   background(230);
  
-	camera.position.x=paperObj.x
- camera.position.y= paperObj.y
+	
 
   groundObject.display();
   dustbinObj.display();
@@ -42,8 +41,6 @@ function keyPressed(){
 		Matter.Body.applyForce(paperObj.body,paperObj.body.position,{x:130,y:-145})
 	}
 	
-	if (keyCode===LEFT_ARROW){
-		Matter.Body.applyForce(paperObj.body,paperObj.body.position,{x:130,y:-145})
-	}
+	
 }
 

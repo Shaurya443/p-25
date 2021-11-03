@@ -28,6 +28,8 @@ function draw() {
   rectMode(CENTER);
   background(230);
  
+	camera.position.x=paperObj.x
+ camera.position.y= paperObj.y
 
   groundObject.display();
   dustbinObj.display();

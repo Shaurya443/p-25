@@ -40,7 +40,7 @@ function keyPressed(){
 		Matter.Body.applyForce(paperObj.body,paperObj.body.position,{x:130,y:-145})
 	}
 	
-	if (keyCode===DOWN_ARROW){
+	if (keyCode===LEFT_ARROW){
 		Matter.Body.applyForce(paperObj.body,paperObj.body.position,{x:130,y:-145})
 	}
 }
